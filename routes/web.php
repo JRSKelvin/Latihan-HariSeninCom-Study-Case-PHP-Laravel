@@ -24,3 +24,7 @@ Route::get('/category', [CategoryController::class, 'index']);
 Route::get('/asset', [AssetController::class, 'index']);
 Route::get('/product', [ProductController::class, 'index']);
 Route::get('/product_asset', [ProductAssetController::class, 'index']);
+Route::resource('/category', CategoryController::class);
+Route::resource('/asset', AssetController::class);
+Route::resource('/product', ProductController::class);
+Route::resource('/product_asset', ProductAssetController::class);
