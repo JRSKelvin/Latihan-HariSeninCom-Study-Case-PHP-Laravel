@@ -7,6 +7,23 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Sumber Referensi Yang Digunakan
+#### Materials Documentation
+- [ToastR CDN](https://cdnjs.com/libraries/toastr.js/latest).
+- [ToastR NPM](https://github.com/yoeunes/toastr).
+- [Laravel Docs](https://laravel.com/docs/9.x/controllers).
+- [Table Migration Laravel](https://laravel.com/docs/9.x/migrations).
+- [Bootstrap Docs](https://getbootstrap.com/docs/5.2/).
+- [Tutorial Laravel 8](https://santrikoding.com/tutorial-laravel-8-installasi).
+- [Storage Link Laravel](https://www.jagoanhosting.com/tutorial/bantuan-support-lainnya/cara-membuat-storage-link-pada-laravel).
+- [Wrap Content Table](https://www.w3docs.com/snippets/css/how-to-wrap-the-content-of-a-table-cell.html).
+
+#### StackOverflow
+- [Custom Timestamps Laravel](https://stackoverflow.com/questions/25010435/laravel-custom-timestamp-column-names).
+- [Change Model Table Name Laravel](https://stackoverflow.com/questions/34462190/how-to-change-laravel-models-table-name).
+- [Truncate String Laravel](https://stackoverflow.com/questions/15012712/truncate-string-in-laravel-blade-templates).
+- [Get File Size Laravel](https://stackoverflow.com/questions/40995731/laravel-get-size-from-uploaded-file).
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
