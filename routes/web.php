@@ -1,5 +1,9 @@
 <?php
 
+use App\Http\Controllers\AssetController;
+use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\ProductAssetController;
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +20,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/category', [CategoryController::class, 'index']);
+Route::get('/asset', [AssetController::class, 'index']);
+Route::get('/product', [ProductController::class, 'index']);
+Route::get('/product_asset', [ProductAssetController::class, 'index']);
